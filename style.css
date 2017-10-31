@@ -1,0 +1,102 @@
+::selection {
+	background-color: inherit;
+	color: inherit;
+	}
+::-moz-selection {
+	background-color: inherit;
+	color: inherit;
+	}
+::-o-selection {
+	background-color: inherit;
+	color: inherit;
+	}
+::-ms-selection {
+	background-color: inherit;
+	color: inherit;
+	}
+::-webkit-selection {
+	background-color: inherit;
+	color: inherit;
+	}
+
+@font-face {font-family: Liberation Serif; src: url(../jdgmiles.github.io/LiberationSerif.woff);}
+@font-face {font-family: Liberation Serif Bold; src: url(../jdgmiles.github.io/LiberationSerif-Bold.woff);}
+@font-face {font-family: Liberation Serif Italic; src: url(../jdgmiles.github.io/LiberationSerif-Italic.woff);}
+@font-face {font-family: Liberation Serif Bold Italic; src: url(../jdgmiles.github.io/LiberationSerif-BoldItalic.woff);}
+
+body {font-family: Liberation Serif, Georgia, Tahoma, Arial, Helvetica, Sans-Serif; background-color:black; color:black; cursor:default;}
+
+table {border-spacing: 0;}
+
+.numbercell {background-color:white; width:70px;height:70px; text-align:center; font-size:50px; border-radius:7px;}
+
+.hinequality {background-color:none; width:50px; color:white; text-align:center; font-size:40px;}
+.vinequality {background-color:none; height:50px; color:white; text-align:center; font-size:38px;}
+.spacer {background-color:none;}
+
+.solvebutton {text-align:center; vertical-align:middle; background-color:black; color:white; font-family: Liberation Serif, Georgia; width:280px; height:80px}
+
+.pickingcell {text-align:center; vertical-align:middle; background-color:transparent; padding:3px;}
+
+.pickingcellcontent {text-align:center; vertical-align:middle; width:30px; height:30px; background-color:white; padding:0; border-radius:8px; border:3px solid black; text-align:center; font-size:25px; color:black;}
+
+a:link {color: red; text-decoration: none;}
+a:link:hover {text-decoration:underline}
+a:visited {color:#DD0000;}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border:0px;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+  z-index:5;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #181818;
+  border: 2px solid #AAAAAA;
+  border-radius: 20px;
+  width: 500px;
+  position: relative;
+  transition: all 0s ease-in-out;
+}
+
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  background-color:#181818;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+}
+.popup .close:hover {
+  color: #DD0000;;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
