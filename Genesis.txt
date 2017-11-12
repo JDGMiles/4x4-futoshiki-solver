@@ -1,1 +1,8 @@
 Anon <jageingettroll@gmail.com> emailed asking if I could make this.
+
+"Hello,
+
+Would it be a lot of work to make a 4x4 futoshiki solver? Just wondering, the code seems complex so I can't really alter it myself.
+
+Thanks,
+Anon"
