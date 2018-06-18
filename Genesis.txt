@@ -1,8 +1,62 @@
 Anon <jageingettroll@gmail.com> emailed asking if I could make this.
 
+---
+
 "Hello,
 
 Would it be a lot of work to make a 4x4 futoshiki solver? Just wondering, the code seems complex so I can't really alter it myself.
 
 Thanks,
 Anon"
+
+---
+
+"Ah, I guess you saw my 5x5 Futoshiki Solver :)
+
+It been a while since I made that but I just looked over the code and I think I could adapt it to 4x4 without too much difficulty.
+
+Happy to give it a shot if you like!"
+
+---
+
+"Hello,
+
+Yes, I saw it on your page here: https://jdgmiles.github.io/Futoshiki-Solver/. I intend to use it to solve some latin squares quickly, so I feel a bit bad asking someone to do actual work on it just for that.
+
+Only do it if you yourself would enjoy it as a brief hobby project. You'd possibly have the only actually working latin square/futoshiki-solver easily findable on google. Not sure if there are others easily accessible, but they don't seem to be too common (couldn't find any working ones).
+
+Regards,
+Anon"
+
+---
+
+"Hi there! Sorry for the late reply, I've had this in my inbox a while and been too busy to apply myself to it.
+
+You can find my 4x4 Futoshiki Solver here: https://jdgmiles.github.io/4x4-Futoshiki-Solver/.
+
+I tweaked my original 5x5, altering constants in the code and so on, and it seems to work. However, the error-checking is a bit buggy and in general if it identifies a "bad grid" then you need to reload the page to use it again. With a bit of debugging I am sure I can get it working more cleanly, but hopefully this form is adequate for your purposes! As far as I can see, it does the job, you just need to reload the page for new inputs :-)
+
+Let me know how it goes. I know I'm a bit late with this so maybe the moment has passed but if not, and you want me to clean it up then I would be happy to do so. I should have done all this the first night you emailed me, tbh!
+
+All the best,
+
+-J"
+
+---
+
+"Hi,
+
+Thank you. It's never too late to be first (the other ones I could find either don't work, or are java-based/won't work with modern browsers). It's perfectly adequate for my purposes. Maybe you should put it on the index page of your website so that people can find it, too? A simple "4x4" link under the regular Futoshiki link would probably work fine, just so that google can crawl it. It also solves latin squares, if you want more titles for it.
+
+Thanks again,
+Anon"
+
+---
+
+"Great idea! Link added!
+
+And thank you again for getting in touch. It feels amazing to make stuff, put stuff out there, and have people email about it :-) <3
+
+Cheers,
+
+-J"
